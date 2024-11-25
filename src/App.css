@@ -1,38 +1,116 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #009fe3;
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+  height: 100vh;
+}
+
+.contenedor {
   text-align: center;
+  width: 90%;
+  max-width: 700px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  margin-bottom: 20px;
+}
+li {
+  list-style: none;
+
+}
+.barra-busqueda {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.barra-busqueda input {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.barra-busqueda button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #005ea6;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+#resultado-busqueda {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.contenedor-eventos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.tarjeta-evento {
+  background-color: #ffdb4d;
+  color: #000;
+  border-radius: 10px;
+  padding: 15px;
+  width: 45%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.icono {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.texto-evento {
+  text-align: center;
+}
+
+.nombre-evento {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.lugar-evento, .fecha-evento {
+  margin: 3px 0;
+}
+
+.footer-evento {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.asistentes-evento {
+  font-weight: bold;
+}
+
+.boton-asistir {
+  padding: 5px 10px;
+  background-color: #005ea6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boton-asistir:hover {
+  background-color: #004080;
 }

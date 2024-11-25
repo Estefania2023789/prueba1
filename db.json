@@ -1,0 +1,28 @@
+{
+  "eventos": [
+    {
+      "asistentes": "101",
+      "id": "1"
+    },
+    {
+      "asistentes": "102",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "nombre": "Concurso de la Mejor Colada",
+      "lugar": "Estadio de San jose",
+      "fecha": "31/10/2024",
+      "asistentes": "100",
+      "imagen": "url"
+    },
+    {
+      "id": "4",
+      "nombre": "Concurso de la Mejor Colada",
+      "lugar": "Estadio de San jose",
+      "fecha": "31/10/2024",
+      "asistentes": "100",
+      "imagen": "url"
+    }
+  ]
+}
